@@ -15,7 +15,7 @@ module "rg" {
 - Using GitHub
 ```
 module "rg" {
-  source = "git::https://github.com/arunksingh16/terraform-azure-rg-module.git//modules/rg"
+  source = "git::https://github.com/arunksingh16/terraform-azure-rg-module.git//modules/rg?ref=main"
   azure_rg_name = "rg-uat"
   location      = "eastus"
 }
